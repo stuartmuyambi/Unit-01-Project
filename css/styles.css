@@ -295,6 +295,7 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
 
     .name {
         margin: 0;
+        margin-right: auto;
         padding-bottom: 0;
     }
 
