@@ -162,7 +162,7 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
 
     nav {
         margin: 0;
-        width: 88%;
+        width: 100%;
     }
 
     nav ul {
