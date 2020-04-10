@@ -250,32 +250,65 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
     }
 
 }
+
 @media (min-width: 768px) and (max-width: 1023px){
-    .banner {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 15px;
-    }
-
-    .left {
-        text-align: left;
-    }
-
     .mobile-footer {
         display: none;
     }
 
     footer {
+        margin: 0;
+        margin-top: 35px;
         width: 100%;
     }
 
     nav {
         margin: 0;
+        width: 100%;
     }
 
     nav ul {
         width: 100%;
     }
+
+    nav ul li {
+        padding: 5px 10px;
+        background-color: #fafafa;
+        margin-top: 4px;
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+    .name {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+    .contact > p:nth-child(3),
+    .contact > p:nth-child(4) {
+        font-size: 1rem;
+    }
+
+    .contact{
+        margin-top: 50px;
+    }
+
+    .portfolio {
+        justify-content: space-between;
+    }
+
+    .portfolio-container {
+        padding: 40px 15px;
+    }
+
+    .card {
+        flex-basis: 49%;
+    }
+
+    h2 {
+        font-size: 1.3rem;
+    }
+    
 }
 
 @media (min-width: 1024px){
