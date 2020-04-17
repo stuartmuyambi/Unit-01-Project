@@ -409,6 +409,10 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
 }
 
 @media (min-width: 1024px){
+
+    .left {
+        flex-basis: 54%;
+    }
     .mobile-footer {
         display: none;
     }
