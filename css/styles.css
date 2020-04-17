@@ -309,7 +309,7 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
 
     span.name {
         font-size: 1.5rem;
-        margin-bottom: 10px;
+        margin-bottom: 15px;
         font-family: 'Gotham Medium';
     }
 
