@@ -315,6 +315,7 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
 
     nav {
         width: 100%;
+        font-size: 0.9rem;
     }
 
     nav ul {
@@ -325,7 +326,6 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
         padding: 5px 10px;
         background-color: #fafafa;
         margin-top: 4px;
-        font-size: 1rem;
         margin-top: 0;
     }
 
