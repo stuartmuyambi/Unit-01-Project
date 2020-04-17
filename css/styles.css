@@ -164,6 +164,9 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
 
 /* Media Queries */
 @media (min-width: 320px) and (max-width: 767px){
+    body {
+        margin: 0;
+    }
 
     nav {
         margin: 0;
@@ -186,8 +189,8 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
     nav ul li {
         padding: 10px 20px;
         background-color: white;
-        margin-top: 4px;
         font-size: 0.9rem;
+        margin: 4px 5%;
     }
 
     body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4) {
@@ -201,7 +204,7 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
     }
 
     h2 {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
 
     .name {
@@ -211,9 +214,9 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
     }
 
     .profile {
-        width: 80%;
+        width: 65%;
         margin: auto;
-        margin-left: 30px;
+        margin-left: 55px;
     }
 
     .left {
@@ -226,12 +229,21 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
     }
 
     .portfolio-container {
-        padding: 40px 15px;
-        margin-top: 60px;
+        padding: 40px 0;
+        margin-top: 10px;
+    }
+
+    .portfolio {
+        margin: 0 5%; 
     }
 
     .card {
         width: 100%;
+    }
+
+    .contact {
+        margin: 0 5%;
+        margin-top: 60px;
     }
 
     .contact > p:nth-child(3),
@@ -253,6 +265,8 @@ body > header:nth-child(1) > nav:nth-child(1) > ul:nth-child(1) > li:nth-child(4
 
     .mobile-footer {
         display: flex;justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 
     .footer-mobile {
