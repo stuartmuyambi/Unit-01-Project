@@ -106,7 +106,7 @@ h3 {
     font-family: 'Gotham Medium';
 }
 
-.portfolio-container {
+.main-container {
     background-color: white;
     padding: 10% 5%;
 }
@@ -256,7 +256,7 @@ footer a {
 
     /* portfolio styles */
         
-    .portfolio-container {
+    .main-container {
         background-color: white;
         padding: 8% 3%;
     }
@@ -327,13 +327,7 @@ footer a {
 
     footer nav ul {
         margin: 0;
-    }
-
-    .mobile-nav > ul:nth-child(2) > li:nth-child(3) {
-        margin-right: 0px;
-        padding-right: 0px;
-       }
-       
+    }  
 }
 
 @media screen and (min-width:1024px) {
@@ -361,7 +355,7 @@ footer a {
         margin-top: 40px;
     }
 
-    .portfolio-container {
+    .main-container {
         padding-top: 3%;
         margin: 0 3%;
     }
