@@ -127,3 +127,56 @@ h3 {
     padding: 0 13px;
     line-height: 1.5;
 }
+
+/* contact section styles */
+
+.contact {
+    padding-top: 50px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    padding: 0 20px;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 0;
+}
+
+.contact > p:nth-child(2) {
+    margin-bottom: 30px;
+}
+   
+
+strong {
+    font-family: 'Gotham Medium';
+    padding-left: 5px;
+}
+
+/* footer styles */
+
+footer{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-top: 25px ;
+    width: 100%;
+}
+
+.mobile-footer {
+    display: flex;
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+    border-top: 1px solid #e7e7e7;
+}
+
+.footer-mobile {
+    font-weight: 600;
+    font-size: 0.875rem;
+    font-family: 'Gotham Medium';
+    margin: 0;
+}
+
+footer a {
+    color: #4a4a4a;
+}
