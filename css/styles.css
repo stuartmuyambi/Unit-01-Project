@@ -136,6 +136,9 @@ h3 {
 .contact {
     padding-top: 50px;
     margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact p {
@@ -143,6 +146,7 @@ h3 {
     text-align: center;
     line-height: 1.5;
     margin-top: 0;
+    max-width: 1030px;
 }
 
 .contact > p:nth-child(2) {
