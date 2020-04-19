@@ -175,7 +175,7 @@ footer{
 
 .footer-mobile {
     font-weight: 600;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     font-family: 'Gotham Medium';
     margin: 0;
 }
@@ -193,6 +193,11 @@ footer a {
 
     .tab-foot {
         display: none;
+    }
+
+    h2,
+    h3 {
+        font-size: 1.1rem;
     }
 }
 
