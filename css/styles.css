@@ -21,7 +21,6 @@
 
 body {
     font-family: 'Gotham Book';
-    padding: 0 5%;
     color: #4a4a4a;
     background-color: #fafafa;
 }
@@ -32,6 +31,10 @@ a:link {
 }
 
 /* Header Styles */
+
+header {
+    padding: 0 5%;
+}
 
 nav {
     width: 100%;
@@ -87,5 +90,26 @@ nav ul li a {
 }
 
 .header-right img{
+    width: 100%;
+}
+
+/* portfolio section styles */
+
+.portfolio-container {
+    background-color: white;
+    padding: 0 5%;
+}
+
+.portfolio-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    width: 100%;
+    text-align: center;
+}
+
+.card img {
     width: 100%;
 }
