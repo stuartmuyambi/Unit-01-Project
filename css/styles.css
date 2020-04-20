@@ -19,16 +19,27 @@
     scroll-behavior: smooth;
 }
 
+:root {
+    --primary-text: #495780;
+    --secondary-text: #8fa1b6;
+    --bg-primary: #ebf2f6;
+}
+
 body {
     font-family: 'Gotham Book';
-    color: #4a4a4a;
-    background-color: #fafafa;
+    color: var(--primary-text);
+    background-color: var(--bg-primary);
     max-width: 1500px;
 }
 
 a:link {
     text-decoration: none;
-    color: #4a4a4a;
+    color: var(--primary-text);
+}
+
+a:hover {
+    color: #0986d7;
+    transition: ease 0.4s;
 }
 
 /* Header Styles */
@@ -61,7 +72,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #4a4a4a;
+    color: var(--primary-text);
     font-size: 0.9rem;
     text-transform: uppercase;
     font-family: 'Gotham Medium';
@@ -71,7 +82,7 @@ nav ul li a {
     font-family: 'Gotham Medium';
     font-weight: 600;
     font-size: 1.5rem;
-    background-color: #fafafa;
+    background-color: var(--bg-primary);
     text-align: center;
 }
 
@@ -130,7 +141,27 @@ h3 {
 .card p {
     padding: 0 13px;
     line-height: 1.5;
+    color: var(--secondary-text);
 }
+
+/* Skills styles */
+
+.skills {
+    margin-top: 120px;
+}
+
+.skills h2{
+    font-size: 1.5rem;
+}
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Gotham Medium';
+    font-size: 1.2rem;
+    color: var(--primary-text);
+}
+
 
 /* contact section styles */
 
@@ -186,8 +217,10 @@ footer{
 }
 
 footer a {
-    color: #4a4a4a;
+    color: var(--primary-text);
 }
+
+
 
 /* Media Queries */
 
@@ -250,7 +283,7 @@ footer a {
     }
 
     nav ul li {
-        background-color: #fafafa;
+        background-color: var(--bg-primary);
     }
     
 
@@ -311,7 +344,7 @@ footer a {
 
     footer nav ul li a,
     footer nav ul li{
-        background-color: #fafafa;
+        background-color: var(--bg-primary);
         font-size: 0.9rem;
     }
 
