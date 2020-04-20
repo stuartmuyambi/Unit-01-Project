@@ -316,6 +316,29 @@ footer a {
         line-height: 1.5;
     }
 
+    /* Skills section */
+
+    .skills {
+        margin: 100px 50px;
+    }
+
+    .skills h2{
+        padding-bottom: 50px;
+    }
+
+    .skills-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        color: var(--primary-text);
+        margin: 0 auto;
+    }
+
+    figure {
+        flex-basis: 37%;
+        flex-grow: 1;
+    }
+
     /* contact styles */
 
     .contact p {
@@ -408,6 +431,20 @@ footer a {
 
     .tab-foot ul{
         padding-top: 40px;
+    }
+
+    .skills-container {
+        text-align: center;
+        color: var(--primary-text);
+        margin: 0 auto;
+    }
+
+    figure {
+        flex-basis: 20%;
+    }
+
+    .main-container {
+        padding-bottom: 1%;
     }
        
 
