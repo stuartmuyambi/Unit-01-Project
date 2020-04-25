@@ -1,16 +1,6 @@
-/* Add Custom fonts */
 
-@font-face {
-    font-family: 'Gotham Book';
-    src: url('../fonts/gotham/GothamRounded-Book.otf'),
-         url('../fonts/gotham/GothamRoundedBook_21018.ttf');
-}
-
-@font-face {
-    font-family: 'Gotham Medium';
-    src: url('../fonts/gotham/GothamRounded-Medium.otf'),
-         url('../fonts/gotham/GothamRoundedMedium_21022.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
 
 /* Universal Styles */
 
@@ -26,7 +16,7 @@
 }
 
 body {
-    font-family: 'Gotham Book';
+    font-family: 'Roboto', sans-serif;
     color: var(--primary-text);
     background-color: var(--bg-primary);
     max-width: 1500px;
@@ -76,11 +66,11 @@ nav ul li a {
     color: var(--primary-text);
     font-size: 0.9rem;
     text-transform: uppercase;
-    font-family: 'Gotham Medium';
+    font-family: 'Roboto', sans-serif;
 }
 
 .name {
-    font-family: 'Gotham Medium';
+    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
     background-color: var(--bg-primary);
@@ -115,7 +105,7 @@ h2,
 h3 {
     text-align: center;
     font-size: 1.2rem;
-    font-family: 'Gotham Medium';
+    font-family: 'Roboto', sans-serif;
 }
 
 .main-container {
@@ -158,7 +148,7 @@ h3 {
     display: flex;
     flex-direction: column;
     text-align: center;
-    font-family: 'Gotham Medium';
+    font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
     color: var(--primary-text);
 }
@@ -188,7 +178,7 @@ h3 {
    
 
 strong {
-    font-family: 'Gotham Medium';
+    font-family: 'Roboto', sans-serif;
     padding-left: 3px;
 }
 
@@ -213,7 +203,7 @@ footer{
 .footer-mobile {
     font-weight: 600;
     font-size: 0.9rem;
-    font-family: 'Gotham Medium';
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
@@ -233,30 +223,26 @@ img {
 .header-right img {
     border-radius: 10px; 
 }
+.tab-nav {
+    display: none;
+}
 
+.tab-foot {
+    display: none;
+}
+
+h2,
+h3 {
+    font-size: 1.1rem;
+}
+
+a:hover {
+    color: #0986d7;
+    transition: ease 0.4s;
+}
 
 
 /* Media Queries */
-
-@media screen and (min-width:320px) {
-    .tab-nav {
-        display: none;
-    }
-
-    .tab-foot {
-        display: none;
-    }
-
-    h2,
-    h3 {
-        font-size: 1.1rem;
-    }
-
-    a:hover {
-        color: #0986d7;
-        transition: ease 0.4s;
-    }
-}
 
 @media screen and (min-width:768px) {
 
@@ -402,7 +388,7 @@ img {
 
     .tab-name-footer {
         margin-right: auto;
-        font-family: 'Gotham Medium';
+        font-family: 'Roboto', sans-serif;
         font-size: 1rem;
     }
 
